@@ -86,7 +86,7 @@ bool UnRestLFW(string filename, int fold, vector<dict> features,
     totalname.push_back(features[i].name);
   }
   vector<string>::iterator it;
-  int it_num; //获取迭代器的位置有没有更好的方法？
+  int it_num;
   if (axis == 0) {
     feature_train = MatrixXd(sum_sample_num(per_fea_num_train), 
                             features[0].fea.cols());
