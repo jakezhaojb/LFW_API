@@ -103,7 +103,7 @@ bool RestLFW(string filename, int fold, vector<dict> features,
     totalname.push_back(features[i].name);
   }
   vector<string>::iterator it1, it2;
-  int it_num1, it_num2; //获取迭代器的位置有没有更好的方法？
+  int it_num1, it_num2;
   if (axis == 0) {
     feature_train = MatrixXd(per_fea_num_train.size() * 2, 
                             features[0].fea.cols());
