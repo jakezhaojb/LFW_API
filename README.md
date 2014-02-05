@@ -14,10 +14,10 @@ Eigen is a C++ template library for linear algebra: matrices, vectors, numerical
 Our input as well as output feature matrix are constructed with Eigen::MatrixXd or Eigen::VectorXd. After installing Eigen on your project, you can write matrix as simply as in Matlab!
 
 ### Get started
-Note that you should firstly extract features on the images in LFW, your features should be constructed as a stack of "dict" class, which includes considered person's name, number of his or her images and extracted feature matrix of the person. You can see how this class constructed in both .cpp files. Furthermore, you can make your feature matrix as row-ordered or column-ordered. The row-ordered matrix means each row represents a feature vector of a specific image, and column-ordered means each column represents the vector. You can change this using the parameter "axis", whose default setting is 0, which means row-ordered setting.
+Note that you should firstly extract features on the images in LFW, your features should be constructed as a stack of "dict" class, which includes considered each person's name, number of his or her images and extracted feature matrix of the person. You can see how this class constructed in both .cpp files. Furthermore, you can make your feature matrix as row-ordered or column-ordered. The row-ordered matrix means each row represents a feature vector of a specific image, and column-ordered means each column represents the vector. You can change this using the parameter "axis", whose default setting is 0, which means row-ordered setting.
 
 ### pairs.txt and people.txt
-Preparing the .txt files for different configurations of LFW! You can find instructions here:         
+Prepare the .txt files for different configurations of LFW! You can find instructions here:         
 http://vis-www.cs.umass.edu/lfw/README.txt
 
 python version
